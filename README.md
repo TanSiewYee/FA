@@ -2,8 +2,6 @@
 Healthcare Appointment & Patient Management System
 
 # Group Members
-- Lock Chee Jen  QIU202507-008530 
-- Chin Pui Yin   QIU202510-008767
 - Tan Siew Yee   QIU202510-008615
 
 # Tools and Technologis used
