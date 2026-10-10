@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    
+    <title>Register Patient</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h2>Patient Registration</h2>
+
+    <form method="POST" action="/patient/add">
+
+            Name:
+            <input
+                type="text"
+                name="name"
+                placeholder="e.g. Tan Wei Ming"
+                required
+            >
+
+            <br><br>
+
+            IC Number (MyKad):
+            <input
+                type="text"
+                name="ic_number"
+                placeholder="e.g. 980512-10-5432"
+                pattern="\d{6}-\d{2}-\d{4}"
+                title="Format: YYMMDD-PB-###G (e.g., 980512-10-5432)"
+                required
+            >
+
+            <br><br>
+
+            Phone:
+            <input
+                type="text"
+                name="phone"
+                placeholder="e.g. +6012-3456789"
+            >
+
+            <br><br>
+
+            Email:
+            <input
+                type="email"
+                name="email"
+                placeholder="e.g. weiming.tan@gmail.com"
+            >
+
+            <br><br>
+
+            Date of Birth:
+            <input
+                type="date"
+                name="date_of_birth"
+            >
+
+            <br><br>
+
+            Gender:
+            <select name="gender">
+
+                <option value="Male">
+                    Male
+                </option>
+
+                <option value="Female">
+                    Female
+                </option>
+
+            </select>
+
+            <br><br>
+
+            Address:
+            <input
+                type="text"
+                name="address"
+                placeholder="e.g. No. 12, Jalan Sunway 5/3, Bandar Sunway, Selangor"
+            >
+
+            <br><br>
+
+            <button type="submit">
+                Register Patient
+            </button>
+            
+        </form>
+    
+        </form>
+
+        <div class="admin-back-section">
+            <a href="/admin-dashboard" class="admin-back-button">
+             ← Back to Admin Dashboard
+            </a>
+        </div>
+    </div>
+</body>
+</html>
