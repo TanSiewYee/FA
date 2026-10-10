@@ -585,7 +585,7 @@ app.post("/register", async (req, res) => {
                     <div class="error-icon">⚠️</div>
                     <h2>Registration Failed</h2>
                     <p>${message}</p>
-                    <a href="/index.html">
+                    <a href="/register.html">
                         Back to Registration
                     </a>
                 </div>
