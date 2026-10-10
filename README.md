@@ -87,8 +87,8 @@ The provided project information does not specify a login/authentication system 
 
 If a login function is added to the final project, enter the credentials below:
 
-| Role   | Username        | Password   |
-|--------|-----------------|------------|
-| Admin  | `admin`         | `admin123` |
-| Doctor | `aisyah.rahman` | `doctor123`|
-| Doctor | `weiming.tan`   | `doctor123`|
+| Role    | Username        | Password   |
+|---------|-----------------|------------|
+| Admin   | `admin`         | `admin123` |
+| Doctor  | `Jane`          | `Jane@1234`|
+| Patient | `weiming.tan`   | `doctor123`|
