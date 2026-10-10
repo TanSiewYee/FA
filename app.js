@@ -886,7 +886,7 @@ function requireRole(role) {
     };
 }
 
-app.post("/login", (req, res) => {
+app.post("/index", (req, res) => {
     let {
         login,
         password
