@@ -5391,7 +5391,7 @@ app.get("/reminders", requireRole("Admin"), (req, res) => {
             <div style="max-width: 1000px; margin: 30px auto; font-family: Arial, sans-serif; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-radius: 8px; padding: 20px; background: #fff;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
                     <h2 style="color: #333; margin: 0;">🔔 Automated Reminders</h2>
-                    <a href="/" style="background-color: #6c757d; color: white; padding: 10px 16px; text-decoration: none; border-radius: 6px; font-weight: bold;">🏠 Back to Home</a>
+                    <a href="/admin-dashboard" style="background-color: #6c757d; color: white; padding: 10px 16px; text-decoration: none; border-radius: 6px; font-weight: bold;">🏠 Back to Home</a>
                 </div>
                 <table style="width: 100%; border-collapse: collapse; text-align: left;">
                     <thead>
